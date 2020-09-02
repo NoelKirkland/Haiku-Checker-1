@@ -1,4 +1,4 @@
-# _{Application Name}_
+# _Haiku Checker_
 
 #### _{Brief description of application}, {Date of current version}_
 
@@ -7,6 +7,38 @@
 ## Description
 
 _{This is a detailed description of your application. Its purpose and usage.  Give as much detail as needed to explain what the application does, and any other information you want users or other developers to have. }_
+
+## specs
+
+* Validate that there are no numbers or special character in poem
+
+| Input | Output  |
+| :---: | :-----: |
+| "Age ain't nothing but a #" | "Please enter only letters"|
+
+* Count syllables from words with only one vowel but with no diphthongs or silent e's
+  * "him", "her", "dug"
+* Count syllables from words with multiple vowels but with no diphthongs or silent e's
+  * "hello", "Coding"
+* Count syllables from words with only one vowel as well as a silent e but no dipthongs
+  * "Code"
+* Count syllables from words with multiple vowels as well as a silent e but no dipthongs
+  * "ratable", "complete"
+* Count syllables from words with a diphthong, no other vowels, and no silent e's
+  * "boil", "deer", "stairs"
+* Count syllables from words with multiple dipthongs, no other vowels, and no silent e's
+  * "sourdough", "crackhouse"
+* Count syllables from words with a dipthong, one other vowel, but no silent e
+  * "although", "Haiku", "goodnight", "today", "sau-er-kraut"
+* Count syllables from words with a dipthong, multiple other vowels, but no silent e
+  * "audubon", "Player", 
+* Count syllables from words with a dipthong, one other vowel, and a silent e
+  * "goodbye"
+* Count syllables from words with a dipthong, multiple other vowels, and a silent e
+  * "Europe"
+
+* Validate that there are five syllables in line one
+
 
 ## Setup/Installation Requirements
 
